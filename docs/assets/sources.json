@@ -1,0 +1,10 @@
+[
+  {
+    "path": "docs/assets/overview.svg",
+    "source": "New explanatory project-workflow diagram based on the committed source and documentation; not a screenshot or measured result."
+  },
+  {
+    "path": "docs/assets/evaluation.png",
+    "source": "results.zip/results/ef_scatter.png, original aggregate experiment output; not rerun"
+  }
+]
