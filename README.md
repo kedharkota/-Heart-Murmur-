@@ -4,11 +4,26 @@ YOLO-based cardiac segmentation experiments and ejection-fraction analysis.
 
 **Python · YOLO11 · CAMUS · Streamlit · Computer vision**
 
+[![Documentation checks](https://github.com/kedharkota/-Heart-Murmur-/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/kedharkota/-Heart-Murmur-/actions/workflows/docs.yml)
+
 [Overview](#overview) · [Getting started](#getting-started) · [Repository guide](#repository-guide) · [Reproducibility](docs/REPRODUCIBILITY.md)
 
-![Cardiac Ultrasound Segmentation: project preview](docs/assets/evaluation.png)
+<p align="center">
+  <img src="docs/assets/evaluation.png" alt="Cardiac Ultrasound Segmentation: project preview" width="900" />
+</p>
+
+[Open full-size visual](docs/assets/evaluation.png)
 
 *Original aggregate ejection-fraction evaluation plot from results.zip.*
+
+## Project at a glance
+
+| Detail | Project information |
+| --- | --- |
+| **Focus** | Cardiac structure segmentation and ejection-fraction analysis |
+| **Start here** | [PROJECT_DOCUMENTATION.md](PROJECT_DOCUMENTATION.md) |
+| **Run mode** | Archived notebooks and Streamlit demo; external dataset and weights |
+| **Explore** | Segmentation comparisons, aggregate EF plots, and result tables |
 
 ## Overview
 
@@ -23,7 +38,11 @@ A cardiac imaging research repository comparing segmentation architectures on CA
 
 ## Workflow
 
-![Project workflow](docs/assets/overview.svg)
+<p align="center">
+  <img src="docs/assets/overview.svg" alt="Project workflow" width="900" />
+</p>
+
+[Open full-size visual](docs/assets/overview.svg)
 
 *Explanatory diagram. Detailed implementation and availability notes follow below.*
 
@@ -63,6 +82,9 @@ The committed `results/ef_metrics_summary.csv` inside the archive reports Exp 2 
 
 ## Documentation maintenance
 
+<details>
+<summary>Run documentation checks and maintain visuals</summary>
+
 Local documentation links and image headers are checked on pull requests and relevant pushes by the [documentation workflow](.github/workflows/docs.yml). Run the same check locally:
 
 ```bash
@@ -70,6 +92,13 @@ python tools/check_docs.py
 ```
 
 See the [reproducibility guide](docs/REPRODUCIBILITY.md) for evidence, missing artifacts, and visual-source notes. The check validates documentation files; it does not train models or certify application behavior.
+
+</details>
+
+## Explore related projects
+
+- [Sleep Stage Classification](https://github.com/kedharkota/Sleep-Disorder-Analysis)
+- [Scala & Spark Image Classification Demo](https://github.com/kedharkota/Skin-Cancer-Detection-using-SCALA)
 
 ---
 
